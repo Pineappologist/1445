@@ -46,6 +46,10 @@ int main() {
             }
         }
     }
-
+    if (champion == -1) {
+        cout << "FAIL" << endl;
+    } else {
+        cout << champion << endl;
+    }
 
 }
